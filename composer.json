@@ -1,0 +1,19 @@
+{
+    "name": "forfun/fun_tests",
+    "description": "Simple tests",
+    "keywords": ["testing"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alex Anisimov",
+            "email": "a.aleksu+github@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "ForFun\\FunTests\\": "lib/"
+        }
+    }
+}
