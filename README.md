@@ -7,9 +7,9 @@ Fun Tests is not PHPUnit killer and is not supposed to replace this library. It'
 It should be easy to start using it: you can either add this library into your project directly (downloading somewhere in namespace of your project) or through composer.
 
 
-=========================================
+<pre>
 Feel free to ask me anything regarding fun tests
-=========================================
+</pre>
 
 
 
