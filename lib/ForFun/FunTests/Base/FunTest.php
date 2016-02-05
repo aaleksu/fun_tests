@@ -21,6 +21,7 @@ class FunTest
 			if(preg_match('/^test/', $method)) {
 				try {
 					$this->{$method}();
+					$this->clear();
 				}
 				catch(\Exception $e) {
 					$this->fail($e->getMessage());
@@ -35,6 +36,9 @@ class FunTest
 
 		$this->logMemUsage();
 	}
+	
+	protected function clear()
+	{}
 
 	protected function assertEq($value, $expected)
 	{
